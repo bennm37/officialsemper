@@ -1466,6 +1466,25 @@
 				}
 
 			}
+		
+	.left-title {
+		font-size: 2.5em;
+		font-family: "Bebas Neue";
+		text-align: left;
+		margin-left: 2em;
+	}
+	.right-title {
+		font-size: 2.5em;
+		font-family: "Bebas Neue";
+		text-align: right;
+		margin-right: 2em;
+	}
+	.upcoming-blurb {
+		text-align: left;
+		margin-left: 5em;
+		align-items: center;
+		justify-content: center;
+	}
 
 /* Footer */
 
