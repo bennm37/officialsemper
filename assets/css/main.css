@@ -757,6 +757,20 @@
 			.image.main img {
 				width: 100%;
 			}
+	
+	.scroll-container {
+		overflow: auto;
+		white-space: nowrap;
+		display: flex;
+		padding: 10px;
+		scroll-snap-type: x mandatory;
+	}
+
+	.scroll-container img {
+		padding: 10px;
+		max-width: 80%;
+		scroll-snap-align: center;
+	  }
 
 /* List */
 
